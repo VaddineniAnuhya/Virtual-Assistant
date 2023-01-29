@@ -131,7 +131,7 @@ if __name__ =='__main__':
         elif 'send whatsapp message' in query:
             try:
                 speak('For whom you want to send')
-                number='+919390190599'
+                number='+919177894727'
                 speak('What you want to send')
                 msg=take_command()
                 speak('Please specify the hour')
