@@ -141,7 +141,7 @@ if __name__ =='__main__':
                 pywhatkit.sendwhatmsg(number,msg,hour,min)
             except Exception as e:
                 print(e)
-                speak('Sorry Rocky unbale to send message')
+                speak('Sorry Anu unable to send message')
 
         elif 'exit' in query or 'quit' in query or 'close' in query:
             speak('Thanks for using me Bye anu ts')
