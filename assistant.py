@@ -85,7 +85,7 @@ if __name__ =='__main__':
             strtime=datetime.datetime.now().strftime("%H:%M:%S")
             speak(strtime)
         elif 'play music' in query or 'play songs' in query:
-            music_dir='C:\\Users\\Moturu Tarun Venkat\\Desktop\\songs'
+            music_dir='C:\Users\Anuhya\OneDrive\Desktop\songs'
             songslist=os.listdir(music_dir)
             os.startfile(os.path.join(music_dir,songslist[0]))
 
