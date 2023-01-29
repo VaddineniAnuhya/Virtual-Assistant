@@ -59,7 +59,7 @@ def send_mail(to,content):
 
 if __name__ =='__main__':
     wish_me()
-    speak('hello rocky how can I help you')
+    speak('hello anu how can I help you')
 
     while True:
         query=take_command().lower()
@@ -144,7 +144,7 @@ if __name__ =='__main__':
                 speak('Sorry Rocky unbale to send message')
 
         elif 'exit' in query or 'quit' in query or 'close' in query:
-            speak('Thanks for using me Bye rocky ts')
+            speak('Thanks for using me Bye anu ts')
             exit()
 
 
